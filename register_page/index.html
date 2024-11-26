@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../register_page/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+</head>
+<body>
+    <section>
+        <form action="#">
+            <h2>Register Page</h2>
+            <div class="inputs">
+                <label for="email">Email:</label>
+                <input class="userInput email" type="email" required>
+            </div>
+            <div class="inputs">                
+                <label for="passInput">Password:</label>
+                <input class="userInput passInput" type="password" required>
+            </div>
+            <div class="inputs">
+                <label for="ConfPassInput">Confirm:</label>
+                <input class="userInput ConfPassInput" type="password" required>
+            </div>
+
+            <div class="gender">
+                <p class="yourGender">Your gender:</p>
+                <label>
+                    <input type="radio" name="gender" value="male" id="male" checked> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female" id="female"> Female
+                </label>
+            </div>
+            
+           <button id="btn">Login</button>
+
+            <div class="login">
+                <p>If you have an <a href="../login_page/index.html">Account?</a></p>
+            </div>
+        </form>
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
